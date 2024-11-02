@@ -7,82 +7,301 @@
   <title> Print Div Content </title>
     <!-- ================================= Stylesheet ================================= -->
   <link rel="stylesheet" href="style.css">
-
-    <script defer src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
-    <style>
-        @page {
-            @bottom-center {
-                content: counter(page);
-                content: 'page 'counter(page) ' of ' counter(page);
-                /*content: string(title);
-                string-set: title content(text);*/
-            }
-        }
-
-        .pagedjs_margin-content::after {
-            color: red;
-            font-size: 15px;
-        }
-    </style>
+  <script defer src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
 </head>
 <body>
-    <section>
-        <h2>Section 1</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, incidunt in, autem deserunt quis sed, magni quidem
-             explicabo sunt esse voluptatibus aspernatur. A dolorem consectetur ratione vitae harum sapiente saepe 
-             reprehenderit assumenda sint qui esse, sequi cumque laborum minus ipsum! Rem doloribus neque veniam rerum nisi 
-             adipisci eos nulla qui.Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus officiis
-             nisi quidem aut eius in distinctio ratione voluptate enim ex iure pariatur ipsum molestiae. Consectetur 
-             accusantium praesentium tenetur quo? Doloribus quae possimus nesciunt minus non nisi quis accusamus esse alias! 
-             Beatae illo ipsa nisi ipsam cumque quo dolor consequuntur adipisci optio! Odio voluptate, asperiores quos unde
-            inventore quo, possimus reprehenderit illo aliquam, explicabo placeat quibusdam natus ipsa fugiat? Error atque
-            sed, harum soluta corporis dolores dignissimos incidunt sunt distinctio saepe, laboriosam dolore libero illum
-            labore mollitia similique ea, minima fugiat reprehenderit iusto eos illo. Eum minima error nemo libero ab 
-            sapiente quasi repudiandae? Numquam rerum assumenda iure itaque, quod cum eos molestias ut nihil aut sunt
-            quae recusandae. Quod, ad accusantium? Voluptate perferendis aliquam quas veritatis cumque! Corrupti fugiat
-            excepturi ad velit, quae at ipsa adipisci pariatur quaerat ea dolorem et minima? Quam est excepturi assumenda
-            ipsum nesciunt nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus
-            officiis nisi quidem aut eius in distinctio ratione voluptate enim ex iure pariatur ipsum molestiae.
-            Consectetur accusantium praesentium tenetur quo? Doloribus quae possimus nesciunt minus non nisi quis 
-            accusamus esse alias! Beatae illo ipsa nisi ipsam cumque quo dolor consequuntur adipisci optio! Odio voluptate, 
-            asperiores quos unde inventore quo, possimus reprehenderit illo aliquam, explicabo placeat quibusdam natus ipsa 
-            fugiat? Error atque sed, harum soluta corporis dolores dignissimos incidunt sunt distinctio saepe, laboriosam 
-            dolore libero illum labore mollitia similique ea, minima fugiat reprehenderit iusto eos illo. Eum minima error 
-            nemo libero ab sapiente quasi repudiandae? Numquam rerum assumenda iure itaque, quod cum eos molestias ut nihil 
-            aut sunt quae recusandae. Quod, ad accusantium? Voluptate perferendis aliquam quas veritatis cumque! Corrupti 
-            fugiat excepturi ad velit, quae at ipsa adipisci pariatur quaerat ea dolorem et minima? Quam est excepturi 
-            assumenda ipsum nesciunt nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, necessitatibus 
-            officiis nisi quidem aut eius in distinctio ratione voluptate enim ex iure pariatur ipsum molestiae. Consectetur 
-            accusantium praesentium tenetur quo? Doloribus quae possimus nesciunt minus non nisi quis accusamus esse alias! 
-            Beatae illo ipsa nisi ipsam cumque quo dolor consequuntur adipisci optio! Odio voluptate, asperiores quos unde 
-            inventore quo, possimus reprehenderit illo aliquam, explicabo placeat quibusdam natus ipsa fugiat? Error atque sed, 
-            harum soluta corporis dolores dignissimos incidunt sunt distinctio saepe, laboriosam dolore libero illum labore 
-            mollitia similique ea, minima fugiat reprehenderit iusto eos illo. Eum minima error nemo libero ab sapiente quasi 
-            repudiandae? Numquam rerum assumenda iure itaque, quod cum eos molestias ut nihil aut sunt quae recusandae. Quod, 
-            ad accusantium? Voluptate perferendis aliquam quas veritatis cumque! Corrupti fugiat excepturi ad velit, quae at 
-            ipsa adipisci pariatur quaerat ea dolorem et minima? Quam est excepturi assumenda ipsum nesciunt nihil!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: red;"> Consequatur </span> 
-            consectetur animi laudantium obcaecati tenetur natus illum minus unde praesentium perspiciatis amet illo, 
-            voluptatum temporibus quae dolores vel porro earum
-            esse id fugit itaque eius? Nihil, unde fugit? Unde ipsa voluptatum dicta? A dicta omnis sunt perspiciatis facere 
-            fuga explicabo illum!
-        </p>
-    </section>
-    <section id="my-section">
-        <h2>Section 2 - Section To Be Printed</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: red;"> Consequatur </span> 
-            consectetur animi laudantium obcaecati tenetur natus illum minus unde praesentium perspiciatis amet illo, 
-            voluptatum temporibus quae dolores vel porro earum
-            esse id fugit itaque eius? Nihil, unde fugit? Unde ipsa voluptatum dicta? A dicta omnis sunt perspiciatis facere 
-            fuga explicabo illum!</p>
-    </section>
-    <section>
-        <h2>Section 3</h2>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas pariatur exercitationem dolores soluta culpa! Repellendus nobis porro consequatur incidunt aliquid delectus architecto officia, eveniet veniam explicabo commodi, perspiciatis cum fugiat.
-        </p>
-    </section>
+    <div class="page">
+<br>
+
+<div class="main-img">
+  <p align="center">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp37nyTWjqlU55RJIrPQQ2lvk-iitRxkiBrzKFOoSji7-ePI1_VpgrMUpkeS5zgZX9Oc0lDq6OyIxkiRBKKFfTy8RdBcCHrZrA-xgbAaNwaKmbVWA3V_XW0fCNaPNcF2E4cUUibuecA2e0KWlhYhVOT0l74o-usIDiVztLySYTuJ35MlI_y7zppTzN/s1600/logo.png" alt="img">
+  </p>
+</div>
+<br/>
+
+
+<div class="table-box">
+  
+<table>
+<thead>
+  <tr>
+    <th class="sticky" style="z-index: 2;">টাকার পরিমাণ</th>
+    <th>১ বছর</th>
+    <th>২ বছর</th>
+    <th>৩ বছর</th>
+    <th>৪ বছর</th>
+    <th>৫ বছর</th>
+    <th>৬ বছর</th>
+    <th>৭ বছর</th>
+    <th>৮ বছর</th>
+    <th>৯ বছর</th>
+    <th>১০ বছর</th>
+  </tr>
+<thead>
+  
+<tbody>
+  <tr>
+    <td class="sticky">১ লক্ষ</td>
+    <td><div class="score-value score-value--very-red">৮,৭৪৫ ৳ </div></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">১ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">২ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">২ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৩ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৩ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৪ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৪ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৫ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৫ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৬ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৬ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৭ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৭ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৮ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৮ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৯ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">৯ লক্ষ ৫০ হাজার</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="sticky">১০ লক্ষ</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+
+</tbody>
+</table>
+  
+</div>
+
+<br>  
+  
+
+
+</div>
+
+
     <button onclick="window.print()">Print</button>
 </body>
 </html>
