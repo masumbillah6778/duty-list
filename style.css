@@ -1,1 +1,261 @@
+.page {
+  background: ;
+  width: ;
+  height: ;
+  padding-bottom: 10px;
+  border: 2px solid Green;
+}
+  
+.main-img img {
+  text-align: center;
+  height: auto;
+  width: 98%;
+  text-align: center;
+  border: 2px solid Red;
+  border-radius: 50px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+.table-box {
+  background: ;
+  width: 97.5%;
+  height: 300px;
+  overflow: scroll;
+  border: 9px;
+  border-style: groove;
+  border-left-color: Blue;
+  border-top-color: Yellow;
+  border-right-color: Green;
+  border-bottom-color: Red;
+}
+  
+.table-box table {
+  background: ;
+  width: 100%;
+  height: 100%;
+  font-family: Solaimanlipi;
+  border: 2px;
+  border-style: solid;
+  border-color: Blue;
+  /*border-collapse: collapse;*/
+}
+  
+.table-box table th {
+  background: #007874;
+  color: White;
+  width: 160px;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  border: 2px;
+  border-style: solid;
+  border-color: Red;
+  z-index: 1;
+}
+  
+.table-box table td {
+  color: Black;
+  width: 160px;
+  height: 50px;
+  min-width: 160px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px;
+  border-style: solid;
+  border-color: green;
+}
+  
+.table-box table tbody {
+  width: 100%;
+}
+  
+.table-box table .sticky {
+  background: #007874;
+  color: White;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+  border: 2px;
+  border-style: solid;
+  border-color: Red;
+  z-index: 1;
+}
+  
+.table-box table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
 
+.table-box table td:hover{
+  border: 2px solid Red;
+}
+
+  
+  
+  
+  
+  
+.score-value {
+  position: relative;
+  width: 65px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: right;
+}
+  
+.score-value::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+  top: 50%;
+  right: -16px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+  
+.score-value--very-red::after {
+  background: Red;
+}  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+.details {
+  border: 2px solid Red;
+  border-radius: 50px 50px 0px 0px;
+}  
+
+.page .photo {
+  vertical-align:middle;
+  display: inline;
+}  
+  
+.page .photo p {
+  color: Black;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+.page .photo img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding: px;
+  border: 2px;
+  border-color: Red;
+  border-style: solid;
+  border-radius: 10px;
+  vertical-align:middle;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+  
+.main-title {
+  background: Red;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+  
+
+  
+.main-title h5 {
+  color: Yellow;
+  font-size: 20px;
+  margin: auto 0px;
+  padding: 2px 0px 0px 0px;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+.news {
+  background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(1,156,0,1) 100%);
+  color: White;
+  width: 73%;
+  padding: 2px;
+}
+  
+.news marquee {
+  font-size: 20px;
+  padding: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+.contact {
+  color: Black;
+  padding: 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Solaimanlipi;
+}
+
+fa-solid  {
+  background: Yellow;
+  width: 20px;
+  height: 20px;
+}
+  
+.fa-phone {
+  color: Green;
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  
+  margin: 5px;
+  padding: 5px;
+  border: 0px solid Red;
+  border-radius: 50px;
+  /*box-shadow: 1px 2px 3px violet;*/
+  box-shadow: Blue 0px 3px 3px 2px, Red 3px 0px 0px 3px;
+}
