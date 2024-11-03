@@ -84,8 +84,8 @@ body {
   }
   
 .table-box table th {
-  background: #007874;
-  color: White;
+  background: /*#007874*/ Yellow;
+  color: black;
   width: 160px;
   min-width: 160px;
   font-size: 20px;
@@ -117,8 +117,8 @@ body {
 }
   
 .table-box table .sticky {
-  background: #007874;
-  color: White;
+  background: /*#007874*/ Yellow;
+  color: black;
   font-weight: 400;
   position: -webkit-sticky;
   position: sticky;
@@ -201,7 +201,19 @@ body {
   background: Red;
 }
 
-
+.contnet button {
+  cursor: pointer;
+}
+  
+.mybutton {
+  background: #007874;
+  color: white;
+  font-size: 20px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
 
 
 
