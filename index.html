@@ -6,18 +6,21 @@
 
     <title> RAB-8 Duty List </title>
     <link href='https://fonts.maateen.me/bangla/font.css' rel='stylesheet'/>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
       rel="stylesheet" />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="assets/css/style.css" rel="stylesheet" href="style.css" />
-  </head>
-
+</head>
   
 <body>
 <div class="content">
     <h1> November - 2024 </h1>
+    <input id="myInput" type="text" class="cd-search table-filter" data-table="order-table" placeholder=" 🔍 Search.... 🧑‍✈️ " onkeyup="myFunction()"/>
+    <ion-icon name="search-outline"></ion-icon>
  <div class="table-box">
-    <table>
+    
+    <table id="myTable" class="cd-table order-table table">
         <thead>
             <tr>
                 <th class="sticky" style="z-index: 2;"> নামের তালিকা </th>
@@ -101,8 +104,8 @@
             
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> টহল - ১ <br /> <span> ২১:০০ - ১২:০০ </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 2"> - <br /> <span> - </span> </td>
+                <td class="night 3"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -173,9 +176,9 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 1"> কোত <br /> <span> ২২:০০ - ০২:০০ </span> </td>
+                <td class="night 2"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 3"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -211,7 +214,7 @@
 
             <tr>
                 <td class="sticky" rowspan="2"> ৩. <en> Asi </en> - নাসির </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
+                <td class="day 1"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
@@ -319,7 +322,7 @@
             <tr>
                 <td class="night 1"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> এম আই <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> সিও বাংলো <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -360,10 +363,6 @@
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
                 <td class="day 10"> - <br /> <span> - </span> </td>
                 <td class="day 11"> - <br /> <span> - </span> </td>
                 <td class="day 12"> - <br /> <span> - </span> </td>
@@ -389,9 +388,9 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 1"> এম আই <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
+                <td class="night 2"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 3"> কোত <br /> <span> ২২:০০ - ০২:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -430,7 +429,7 @@
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 4"> এম আই <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -498,9 +497,9 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ৬. <en> Asi </en> - শাহজাহান </td>
+                <td class="sticky" rowspan="2"> ৭. <en> Asi </en> - শাহজাহান </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> ডিএডি <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
@@ -535,6 +534,78 @@
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
                 <td class="night 2"> কোত <br /> <span> ২২:০০ - ০২:০০ </span> </td>
+                <td class="night 3"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 4"> - <br /> <span> - </span> </td>
+                <td class="night 5"> - <br /> <span> - </span> </td>
+                <td class="night 6"> - <br /> <span> - </span> </td>
+                <td class="night 7"> - <br /> <span> - </span> </td>
+                <td class="night 8"> - <br /> <span> - </span> </td>
+                <td class="night 9"> - <br /> <span> - </span> </td>
+                <td class="night 10"> - <br /> <span> - </span> </td>
+                <td class="night 11"> - <br /> <span> - </span> </td>
+                <td class="night 12"> - <br /> <span> - </span> </td>
+                <td class="night 13"> - <br /> <span> - </span> </td>
+                <td class="night 14"> - <br /> <span> - </span> </td>
+                <td class="night 15"> - <br /> <span> - </span> </td>
+                <td class="night 16"> - <br /> <span> - </span> </td>
+                <td class="night 17"> - <br /> <span> - </span> </td>
+                <td class="night 18"> - <br /> <span> - </span> </td>
+                <td class="night 19"> - <br /> <span> - </span> </td>
+                <td class="night 20"> - <br /> <span> - </span> </td>
+                <td class="night 21"> - <br /> <span> - </span> </td>
+                <td class="night 22"> - <br /> <span> - </span> </td>
+                <td class="night 23"> - <br /> <span> - </span> </td>
+                <td class="night 24"> - <br /> <span> - </span> </td>
+                <td class="night 25"> - <br /> <span> - </span> </td>
+                <td class="night 26"> - <br /> <span> - </span> </td>
+                <td class="night 27"> - <br /> <span> - </span> </td>
+                <td class="night 28"> - <br /> <span> - </span> </td>
+                <td class="night 29"> - <br /> <span> - </span> </td>
+                <td class="night 30"> - <br /> <span> - </span> </td>
+                <td class="night 31"> - <br /> <span> - </span> </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="sticky" rowspan="2"> ৮. <en> Asi </en> - আহসান হাবিব </td>
+                <td class="day 1"> - <br /> <span> - </span> </td>
+                <td class="day 2"> এম আই <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
+                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 5"> - <br /> <span> - </span> </td>
+                <td class="day 6"> - <br /> <span> - </span> </td>
+                <td class="day 7"> - <br /> <span> - </span> </td>
+                <td class="day 8"> - <br /> <span> - </span> </td>
+                <td class="day 9"> - <br /> <span> - </span> </td>
+                <td class="day 10"> - <br /> <span> - </span> </td>
+                <td class="day 11"> - <br /> <span> - </span> </td>
+                <td class="day 12"> - <br /> <span> - </span> </td>
+                <td class="day 13"> - <br /> <span> - </span> </td>
+                <td class="day 14"> - <br /> <span> - </span> </td>
+                <td class="day 15"> - <br /> <span> - </span> </td>
+                <td class="day 16"> - <br /> <span> - </span> </td>
+                <td class="day 17"> - <br /> <span> - </span> </td>
+                <td class="day 18"> - <br /> <span> - </span> </td>
+                <td class="day 19"> - <br /> <span> - </span> </td>
+                <td class="day 20"> - <br /> <span> - </span> </td>
+                <td class="day 21"> - <br /> <span> - </span> </td>
+                <td class="day 22"> - <br /> <span> - </span> </td>
+                <td class="day 23"> - <br /> <span> - </span> </td>
+                <td class="day 24"> - <br /> <span> - </span> </td>
+                <td class="day 25"> - <br /> <span> - </span> </td>
+                <td class="day 26"> - <br /> <span> - </span> </td>
+                <td class="day 27"> - <br /> <span> - </span> </td>
+                <td class="day 28"> - <br /> <span> - </span> </td>
+                <td class="day 29"> - <br /> <span> - </span> </td>
+                <td class="day 30"> - <br /> <span> - </span> </td>
+                <td class="day 31"> - <br /> <span> - </span> </td>
+            </tr>
+            
+            <tr>
+                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 2"> কোত <br /> <span> ০২:০০ - ০৬:০০ </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
@@ -570,9 +641,9 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ৭. <en> Asi </en> - আহসান </td>
+                <td class="sticky" rowspan="2"> ৯. <en> Asi </en> - মাহবুবুল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
@@ -642,9 +713,9 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ৮. <en> Asi </en> - মাহবুবুল </td>
+                <td class="sticky" rowspan="2"> ১০. <en> Asi </en> - এসকেন্দার </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
@@ -679,7 +750,7 @@
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> ডিএডি <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -714,83 +785,11 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ৯. <en> Asi </en> - এসকেন্দার </td>
+                <td class="sticky" rowspan="2"> ১১. <en> Asi </en> - মনিরুল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
-                <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
-                <td class="day 10"> - <br /> <span> - </span> </td>
-                <td class="day 11"> - <br /> <span> - </span> </td>
-                <td class="day 12"> - <br /> <span> - </span> </td>
-                <td class="day 13"> - <br /> <span> - </span> </td>
-                <td class="day 14"> - <br /> <span> - </span> </td>
-                <td class="day 15"> - <br /> <span> - </span> </td>
-                <td class="day 16"> - <br /> <span> - </span> </td>
-                <td class="day 17"> - <br /> <span> - </span> </td>
-                <td class="day 18"> - <br /> <span> - </span> </td>
-                <td class="day 19"> - <br /> <span> - </span> </td>
-                <td class="day 20"> - <br /> <span> - </span> </td>
-                <td class="day 21"> - <br /> <span> - </span> </td>
-                <td class="day 22"> - <br /> <span> - </span> </td>
-                <td class="day 23"> - <br /> <span> - </span> </td>
-                <td class="day 24"> - <br /> <span> - </span> </td>
-                <td class="day 25"> - <br /> <span> - </span> </td>
-                <td class="day 26"> - <br /> <span> - </span> </td>
-                <td class="day 27"> - <br /> <span> - </span> </td>
-                <td class="day 28"> - <br /> <span> - </span> </td>
-                <td class="day 29"> - <br /> <span> - </span> </td>
-                <td class="day 30"> - <br /> <span> - </span> </td>
-                <td class="day 31"> - <br /> <span> - </span> </td>
-            </tr>
-            
-            <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
-                <td class="night 4"> - <br /> <span> - </span> </td>
-                <td class="night 5"> - <br /> <span> - </span> </td>
-                <td class="night 6"> - <br /> <span> - </span> </td>
-                <td class="night 7"> - <br /> <span> - </span> </td>
-                <td class="night 8"> - <br /> <span> - </span> </td>
-                <td class="night 9"> - <br /> <span> - </span> </td>
-                <td class="night 10"> - <br /> <span> - </span> </td>
-                <td class="night 11"> - <br /> <span> - </span> </td>
-                <td class="night 12"> - <br /> <span> - </span> </td>
-                <td class="night 13"> - <br /> <span> - </span> </td>
-                <td class="night 14"> - <br /> <span> - </span> </td>
-                <td class="night 15"> - <br /> <span> - </span> </td>
-                <td class="night 16"> - <br /> <span> - </span> </td>
-                <td class="night 17"> - <br /> <span> - </span> </td>
-                <td class="night 18"> - <br /> <span> - </span> </td>
-                <td class="night 19"> - <br /> <span> - </span> </td>
-                <td class="night 20"> - <br /> <span> - </span> </td>
-                <td class="night 21"> - <br /> <span> - </span> </td>
-                <td class="night 22"> - <br /> <span> - </span> </td>
-                <td class="night 23"> - <br /> <span> - </span> </td>
-                <td class="night 24"> - <br /> <span> - </span> </td>
-                <td class="night 25"> - <br /> <span> - </span> </td>
-                <td class="night 26"> - <br /> <span> - </span> </td>
-                <td class="night 27"> - <br /> <span> - </span> </td>
-                <td class="night 28"> - <br /> <span> - </span> </td>
-                <td class="night 29"> - <br /> <span> - </span> </td>
-                <td class="night 30"> - <br /> <span> - </span> </td>
-                <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="sticky" rowspan="2"> ১০. <en> Asi </en> - মনিরুল </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 4"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -858,7 +857,79 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১০. <en> Lcpl </en> - রুবেল </td>
+                <td class="sticky" rowspan="2"> ১২. <en> Asi </en> - সমীর </td>
+                <td class="day 1"> - <br /> <span> - </span> </td>
+                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 4"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
+                <td class="day 5"> - <br /> <span> - </span> </td>
+                <td class="day 6"> - <br /> <span> - </span> </td>
+                <td class="day 7"> - <br /> <span> - </span> </td>
+                <td class="day 8"> - <br /> <span> - </span> </td>
+                <td class="day 9"> - <br /> <span> - </span> </td>
+                <td class="day 10"> - <br /> <span> - </span> </td>
+                <td class="day 11"> - <br /> <span> - </span> </td>
+                <td class="day 12"> - <br /> <span> - </span> </td>
+                <td class="day 13"> - <br /> <span> - </span> </td>
+                <td class="day 14"> - <br /> <span> - </span> </td>
+                <td class="day 15"> - <br /> <span> - </span> </td>
+                <td class="day 16"> - <br /> <span> - </span> </td>
+                <td class="day 17"> - <br /> <span> - </span> </td>
+                <td class="day 18"> - <br /> <span> - </span> </td>
+                <td class="day 19"> - <br /> <span> - </span> </td>
+                <td class="day 20"> - <br /> <span> - </span> </td>
+                <td class="day 21"> - <br /> <span> - </span> </td>
+                <td class="day 22"> - <br /> <span> - </span> </td>
+                <td class="day 23"> - <br /> <span> - </span> </td>
+                <td class="day 24"> - <br /> <span> - </span> </td>
+                <td class="day 25"> - <br /> <span> - </span> </td>
+                <td class="day 26"> - <br /> <span> - </span> </td>
+                <td class="day 27"> - <br /> <span> - </span> </td>
+                <td class="day 28"> - <br /> <span> - </span> </td>
+                <td class="day 29"> - <br /> <span> - </span> </td>
+                <td class="day 30"> - <br /> <span> - </span> </td>
+                <td class="day 31"> - <br /> <span> - </span> </td>
+            </tr>
+            
+            <tr>
+                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 2"> - <br /> <span> - </span> </td>
+                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 4"> - <br /> <span> - </span> </td>
+                <td class="night 5"> - <br /> <span> - </span> </td>
+                <td class="night 6"> - <br /> <span> - </span> </td>
+                <td class="night 7"> - <br /> <span> - </span> </td>
+                <td class="night 8"> - <br /> <span> - </span> </td>
+                <td class="night 9"> - <br /> <span> - </span> </td>
+                <td class="night 10"> - <br /> <span> - </span> </td>
+                <td class="night 11"> - <br /> <span> - </span> </td>
+                <td class="night 12"> - <br /> <span> - </span> </td>
+                <td class="night 13"> - <br /> <span> - </span> </td>
+                <td class="night 14"> - <br /> <span> - </span> </td>
+                <td class="night 15"> - <br /> <span> - </span> </td>
+                <td class="night 16"> - <br /> <span> - </span> </td>
+                <td class="night 17"> - <br /> <span> - </span> </td>
+                <td class="night 18"> - <br /> <span> - </span> </td>
+                <td class="night 19"> - <br /> <span> - </span> </td>
+                <td class="night 20"> - <br /> <span> - </span> </td>
+                <td class="night 21"> - <br /> <span> - </span> </td>
+                <td class="night 22"> - <br /> <span> - </span> </td>
+                <td class="night 23"> - <br /> <span> - </span> </td>
+                <td class="night 24"> - <br /> <span> - </span> </td>
+                <td class="night 25"> - <br /> <span> - </span> </td>
+                <td class="night 26"> - <br /> <span> - </span> </td>
+                <td class="night 27"> - <br /> <span> - </span> </td>
+                <td class="night 28"> - <br /> <span> - </span> </td>
+                <td class="night 29"> - <br /> <span> - </span> </td>
+                <td class="night 30"> - <br /> <span> - </span> </td>
+                <td class="night 31"> - <br /> <span> - </span> </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="sticky" rowspan="2"> ১৩. <en> Lcpl </en> - রুবেল </td>
                 <td class="day 1"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -930,7 +1001,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১১. <en> Lcpl </en> - তছিন </td>
+                <td class="sticky" rowspan="2"> ১৪. <en> Lcpl </en> - তছিন </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1002,7 +1073,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১২. <en> Lcpl </en> - ফেরদাউস </td>
+                <td class="sticky" rowspan="2"> ১৫. <en> Lcpl </en> - ফেরদাউস </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1037,7 +1108,7 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 1"> ডিএডি <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
@@ -1074,9 +1145,9 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৩. <en> Lcpl </en> - মাজহারুল </td>
+                <td class="sticky" rowspan="2"> ১৬. <en> Lcpl </en> - মাজহারুল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> ডিএডি <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
@@ -1109,7 +1180,7 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 1"> সিও বাংলো <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
@@ -1146,7 +1217,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৪. <en> Nk </en> নাজমুল </td>
+                <td class="sticky" rowspan="2"> ১৭. <en> Nk </en> নাজমুল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1183,7 +1254,7 @@
             <tr>
                 <td class="night 1"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> সিও বাংলো <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> ডিএডি <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1218,7 +1289,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৫. <en> Lnk </en> - আবুল কালাম </td>
+                <td class="sticky" rowspan="2"> ১৮. <en> Lnk </en> - আবুল কালাম </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1253,9 +1324,9 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 1"> সিও বাংলো <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
+                <td class="night 2"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 3"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1290,7 +1361,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৬. <en> Con </en> - মাসুম </td>
+                <td class="sticky" rowspan="2"> ১৯. <en> Con </en> - মাসুম </td>
                 <td class="day 1"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> ডিএডি <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
@@ -1326,7 +1397,7 @@
             
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> সিও বাংলো <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
+                <td class="night 2"> <dib class="score-value score-value--very-red"> সিও বাংলো </dib> <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
@@ -1362,7 +1433,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৭. <en> Con </en> - মনিরুজ্জামান </td>
+                <td class="sticky" rowspan="2"> ২০. <en> Con </en> - মনিরুজ্জামান </td>
                 <td class="day 1"> ডিএডি <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> এম আই <br /> <span> ১২:০০- ১৮:০০ </span> </td>
@@ -1434,10 +1505,10 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৮. <en> Con </en> - সুমন </td>
+                <td class="sticky" rowspan="2"> ২১. <en> Con </en> - সুমন </td>
                 <td class="day 1"> ডিএডি <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 3"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
@@ -1470,7 +1541,7 @@
             
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> টহল - ১ <br /> <span> ২১:০০ - ১২:০০ </span> </td>
+                <td class="night 2"> টহল - ২ <br /> <span> ২১:০০ - ২৪:০০ </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
@@ -1506,7 +1577,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ১৯. <en> Con </en> - ফারুক </td>
+                <td class="sticky" rowspan="2"> ২২. <en> Con </en> - ফারুক </td>
                 <td class="day 1"> এম আই <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 2"> আসামি ডিউটি <br /> <span> ২১:০০ - ০৬:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1543,7 +1614,7 @@
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> এম আই <br /> <span> ২৪:০০ - ০৬:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1578,9 +1649,9 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২০. <en> Con  </en> - মেহেদী ১ </td>
+                <td class="sticky" rowspan="2"> ২৩. <en> Con  </en> - মেহেদী ১ </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
@@ -1615,7 +1686,7 @@
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> এম আই <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1650,8 +1721,8 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২১. <en> Con </en> - মেহেদী ২ </td>
-                <td class="day 1"> টহল - ১ <br /> <span> - </span> </td>
+                <td class="sticky" rowspan="2"> ২৪. <en> Con </en> - মেহেদী ২ </td>
+                <td class="day 1"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 2"> আসামি ডিউটি <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
@@ -1687,7 +1758,7 @@
             <tr>
                 <td class="night 1"> - <br /> <span> - </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1722,7 +1793,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২২. <en> Con </en> - সুলতান </td>
+                <td class="sticky" rowspan="2"> ২৫. <en> Con </en> - সুলতান </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -1759,7 +1830,7 @@
             <tr>
                 <td class="night 1"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -1794,11 +1865,11 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৩. <en> Con </en> - ইমন </td>
+                <td class="sticky" rowspan="2"> ২৬. <en> Con </en> - ইমন </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> এম আই <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 4"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -1829,7 +1900,7 @@
             </tr>
             
             <tr>
-                <td class="night 1"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 1"> ডিএডি <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
@@ -1866,11 +1937,155 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৪. <en> Con </en> - আশরাফ </td>
+                <td class="sticky" rowspan="2"> ২৭. <en> Con </en> - আশরাফ </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 5"> - <br /> <span> - </span> </td>
+                <td class="day 6"> - <br /> <span> - </span> </td>
+                <td class="day 7"> - <br /> <span> - </span> </td>
+                <td class="day 8"> - <br /> <span> - </span> </td>
+                <td class="day 9"> - <br /> <span> - </span> </td>
+                <td class="day 10"> - <br /> <span> - </span> </td>
+                <td class="day 11"> - <br /> <span> - </span> </td>
+                <td class="day 12"> - <br /> <span> - </span> </td>
+                <td class="day 13"> - <br /> <span> - </span> </td>
+                <td class="day 14"> - <br /> <span> - </span> </td>
+                <td class="day 15"> - <br /> <span> - </span> </td>
+                <td class="day 16"> - <br /> <span> - </span> </td>
+                <td class="day 17"> - <br /> <span> - </span> </td>
+                <td class="day 18"> - <br /> <span> - </span> </td>
+                <td class="day 19"> - <br /> <span> - </span> </td>
+                <td class="day 20"> - <br /> <span> - </span> </td>
+                <td class="day 21"> - <br /> <span> - </span> </td>
+                <td class="day 22"> - <br /> <span> - </span> </td>
+                <td class="day 23"> - <br /> <span> - </span> </td>
+                <td class="day 24"> - <br /> <span> - </span> </td>
+                <td class="day 25"> - <br /> <span> - </span> </td>
+                <td class="day 26"> - <br /> <span> - </span> </td>
+                <td class="day 27"> - <br /> <span> - </span> </td>
+                <td class="day 28"> - <br /> <span> - </span> </td>
+                <td class="day 29"> - <br /> <span> - </span> </td>
+                <td class="day 30"> - <br /> <span> - </span> </td>
+                <td class="day 31"> - <br /> <span> - </span> </td>
+            </tr>
+            
+            <tr>
+                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 2"> - <br /> <span> - </span> </td>
+                <td class="night 3"> সিও বাংলো <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
+                <td class="night 4"> - <br /> <span> - </span> </td>
+                <td class="night 5"> - <br /> <span> - </span> </td>
+                <td class="night 6"> - <br /> <span> - </span> </td>
+                <td class="night 7"> - <br /> <span> - </span> </td>
+                <td class="night 8"> - <br /> <span> - </span> </td>
+                <td class="night 9"> - <br /> <span> - </span> </td>
+                <td class="night 10"> - <br /> <span> - </span> </td>
+                <td class="night 11"> - <br /> <span> - </span> </td>
+                <td class="night 12"> - <br /> <span> - </span> </td>
+                <td class="night 13"> - <br /> <span> - </span> </td>
+                <td class="night 14"> - <br /> <span> - </span> </td>
+                <td class="night 15"> - <br /> <span> - </span> </td>
+                <td class="night 16"> - <br /> <span> - </span> </td>
+                <td class="night 17"> - <br /> <span> - </span> </td>
+                <td class="night 18"> - <br /> <span> - </span> </td>
+                <td class="night 19"> - <br /> <span> - </span> </td>
+                <td class="night 20"> - <br /> <span> - </span> </td>
+                <td class="night 21"> - <br /> <span> - </span> </td>
+                <td class="night 22"> - <br /> <span> - </span> </td>
+                <td class="night 23"> - <br /> <span> - </span> </td>
+                <td class="night 24"> - <br /> <span> - </span> </td>
+                <td class="night 25"> - <br /> <span> - </span> </td>
+                <td class="night 26"> - <br /> <span> - </span> </td>
+                <td class="night 27"> - <br /> <span> - </span> </td>
+                <td class="night 28"> - <br /> <span> - </span> </td>
+                <td class="night 29"> - <br /> <span> - </span> </td>
+                <td class="night 30"> - <br /> <span> - </span> </td>
+                <td class="night 31"> - <br /> <span> - </span> </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="sticky" rowspan="2"> ২৮. <en> Con </en> - পাভেল </td>
+                <td class="day 1"> - <br /> <span> - </span> </td>
+                <td class="day 2"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
+                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 4"> ডিএডি <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
+                <td class="day 5"> - <br /> <span> - </span> </td>
+                <td class="day 6"> - <br /> <span> - </span> </td>
+                <td class="day 7"> - <br /> <span> - </span> </td>
+                <td class="day 8"> - <br /> <span> - </span> </td>
+                <td class="day 9"> - <br /> <span> - </span> </td>
+                <td class="day 10"> - <br /> <span> - </span> </td>
+                <td class="day 11"> - <br /> <span> - </span> </td>
+                <td class="day 12"> - <br /> <span> - </span> </td>
+                <td class="day 13"> - <br /> <span> - </span> </td>
+                <td class="day 14"> - <br /> <span> - </span> </td>
+                <td class="day 15"> - <br /> <span> - </span> </td>
+                <td class="day 16"> - <br /> <span> - </span> </td>
+                <td class="day 17"> - <br /> <span> - </span> </td>
+                <td class="day 18"> - <br /> <span> - </span> </td>
+                <td class="day 19"> - <br /> <span> - </span> </td>
+                <td class="day 20"> - <br /> <span> - </span> </td>
+                <td class="day 21"> - <br /> <span> - </span> </td>
+                <td class="day 22"> - <br /> <span> - </span> </td>
+                <td class="day 23"> - <br /> <span> - </span> </td>
+                <td class="day 24"> - <br /> <span> - </span> </td>
+                <td class="day 25"> - <br /> <span> - </span> </td>
+                <td class="day 26"> - <br /> <span> - </span> </td>
+                <td class="day 27"> - <br /> <span> - </span> </td>
+                <td class="day 28"> - <br /> <span> - </span> </td>
+                <td class="day 29"> - <br /> <span> - </span> </td>
+                <td class="day 30"> - <br /> <span> - </span> </td>
+                <td class="day 31"> - <br /> <span> - </span> </td>
+            </tr>
+            
+            <tr>
+                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 2"> টহল - ২ <br /> <span> ১৯:০০ - ২৪:০০ </span> </td>
+                <td class="night 3"> কোত <br /> <span> ২২:০০ - ০২:০০ </span> </td>
+                <td class="night 4"> - <br /> <span> - </span> </td>
+                <td class="night 5"> - <br /> <span> - </span> </td>
+                <td class="night 6"> - <br /> <span> - </span> </td>
+                <td class="night 7"> - <br /> <span> - </span> </td>
+                <td class="night 8"> - <br /> <span> - </span> </td>
+                <td class="night 9"> - <br /> <span> - </span> </td>
+                <td class="night 10"> - <br /> <span> - </span> </td>
+                <td class="night 11"> - <br /> <span> - </span> </td>
+                <td class="night 12"> - <br /> <span> - </span> </td>
+                <td class="night 13"> - <br /> <span> - </span> </td>
+                <td class="night 14"> - <br /> <span> - </span> </td>
+                <td class="night 15"> - <br /> <span> - </span> </td>
+                <td class="night 16"> - <br /> <span> - </span> </td>
+                <td class="night 17"> - <br /> <span> - </span> </td>
+                <td class="night 18"> - <br /> <span> - </span> </td>
+                <td class="night 19"> - <br /> <span> - </span> </td>
+                <td class="night 20"> - <br /> <span> - </span> </td>
+                <td class="night 21"> - <br /> <span> - </span> </td>
+                <td class="night 22"> - <br /> <span> - </span> </td>
+                <td class="night 23"> - <br /> <span> - </span> </td>
+                <td class="night 24"> - <br /> <span> - </span> </td>
+                <td class="night 25"> - <br /> <span> - </span> </td>
+                <td class="night 26"> - <br /> <span> - </span> </td>
+                <td class="night 27"> - <br /> <span> - </span> </td>
+                <td class="night 28"> - <br /> <span> - </span> </td>
+                <td class="night 29"> - <br /> <span> - </span> </td>
+                <td class="night 30"> - <br /> <span> - </span> </td>
+                <td class="night 31"> - <br /> <span> - </span> </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="sticky" rowspan="2"> ২৯. <en> Con </en> নূর ইসলাম  </td>
+                <td class="day 1"> - <br /> <span> - </span> </td>
+                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 4"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -1938,11 +2153,11 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৫. <en> Con </en> - পাভেল </td>
+                <td class="sticky" rowspan="2"> ৩০. <en> Snk </en> - সবুজ </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
+                <td class="day 2"> এম আই <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 4"> এম আই <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -1973,7 +2188,7 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 1"> এম আই <br /> <span> ১৮:০০ - ২৪:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
@@ -2010,83 +2225,11 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৬. <en> Snk </en> - সবুজ </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
-                <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
-                <td class="day 10"> - <br /> <span> - </span> </td>
-                <td class="day 11"> - <br /> <span> - </span> </td>
-                <td class="day 12"> - <br /> <span> - </span> </td>
-                <td class="day 13"> - <br /> <span> - </span> </td>
-                <td class="day 14"> - <br /> <span> - </span> </td>
-                <td class="day 15"> - <br /> <span> - </span> </td>
-                <td class="day 16"> - <br /> <span> - </span> </td>
-                <td class="day 17"> - <br /> <span> - </span> </td>
-                <td class="day 18"> - <br /> <span> - </span> </td>
-                <td class="day 19"> - <br /> <span> - </span> </td>
-                <td class="day 20"> - <br /> <span> - </span> </td>
-                <td class="day 21"> - <br /> <span> - </span> </td>
-                <td class="day 22"> - <br /> <span> - </span> </td>
-                <td class="day 23"> - <br /> <span> - </span> </td>
-                <td class="day 24"> - <br /> <span> - </span> </td>
-                <td class="day 25"> - <br /> <span> - </span> </td>
-                <td class="day 26"> - <br /> <span> - </span> </td>
-                <td class="day 27"> - <br /> <span> - </span> </td>
-                <td class="day 28"> - <br /> <span> - </span> </td>
-                <td class="day 29"> - <br /> <span> - </span> </td>
-                <td class="day 30"> - <br /> <span> - </span> </td>
-                <td class="day 31"> - <br /> <span> - </span> </td>
-            </tr>
-            
-            <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
-                <td class="night 4"> - <br /> <span> - </span> </td>
-                <td class="night 5"> - <br /> <span> - </span> </td>
-                <td class="night 6"> - <br /> <span> - </span> </td>
-                <td class="night 7"> - <br /> <span> - </span> </td>
-                <td class="night 8"> - <br /> <span> - </span> </td>
-                <td class="night 9"> - <br /> <span> - </span> </td>
-                <td class="night 10"> - <br /> <span> - </span> </td>
-                <td class="night 11"> - <br /> <span> - </span> </td>
-                <td class="night 12"> - <br /> <span> - </span> </td>
-                <td class="night 13"> - <br /> <span> - </span> </td>
-                <td class="night 14"> - <br /> <span> - </span> </td>
-                <td class="night 15"> - <br /> <span> - </span> </td>
-                <td class="night 16"> - <br /> <span> - </span> </td>
-                <td class="night 17"> - <br /> <span> - </span> </td>
-                <td class="night 18"> - <br /> <span> - </span> </td>
-                <td class="night 19"> - <br /> <span> - </span> </td>
-                <td class="night 20"> - <br /> <span> - </span> </td>
-                <td class="night 21"> - <br /> <span> - </span> </td>
-                <td class="night 22"> - <br /> <span> - </span> </td>
-                <td class="night 23"> - <br /> <span> - </span> </td>
-                <td class="night 24"> - <br /> <span> - </span> </td>
-                <td class="night 25"> - <br /> <span> - </span> </td>
-                <td class="night 26"> - <br /> <span> - </span> </td>
-                <td class="night 27"> - <br /> <span> - </span> </td>
-                <td class="night 28"> - <br /> <span> - </span> </td>
-                <td class="night 29"> - <br /> <span> - </span> </td>
-                <td class="night 30"> - <br /> <span> - </span> </td>
-                <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="sticky" rowspan="2"> ২৭. <en> Snk </en> - তৈয়বুর </td>
+                <td class="sticky" rowspan="2"> ৩১. <en> Snk </en> - তৈয়েবুর </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> ডিএডি <br /> <span> ০৬:০০ - ১২:০০ </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 4"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -2154,7 +2297,7 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৮. <en> Snk </en> - সুমন </td>
+                <td class="sticky" rowspan="2"> ৩২. <en> Snk </en> - সুমন </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -2189,9 +2332,9 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
+                <td class="night 1"> কোত <br /> <span> ১৮:০০ - ২২:০০ </span> </td>
                 <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
+                <td class="night 3"> কোত <br /> <span> ২২:০০ - ০২:০০ </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
                 <td class="night 6"> - <br /> <span> - </span> </td>
@@ -2226,10 +2369,10 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ২৯. <en> Snk </en> - হেলাল </td>
+                <td class="sticky" rowspan="2"> ৩৩. <en> Snk </en> - হেলাল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
+                <td class="day 3"> টহল - ১ <br /> <span> ০৯:০০ - ১৯:০০ </span> </td>
                 <td class="day 4"> - <br /> <span> - </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
@@ -2298,11 +2441,11 @@
 
 
             <tr>
-                <td class="sticky" rowspan="2"> ৩০. <en> Sep </en> - শফিকুল </td>
+                <td class="sticky" rowspan="2"> ৩৪. <en> Sep </en> - শফিকুল </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
+                <td class="day 3"> টহল - ১ <br /> <span> 09:০০ - ১9:০০ </span> </td>
+                <td class="day 4"> ডিএডি <br /> <span> ১২:০০ - ১৮:০০ </span> </td>
                 <td class="day 5"> - <br /> <span> - </span> </td>
                 <td class="day 6"> - <br /> <span> - </span> </td>
                 <td class="day 7"> - <br /> <span> - </span> </td>
@@ -2333,8 +2476,8 @@
             </tr>
             
             <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> টহল - ১ <br /> <span> ২১:০০ - ১২:০০ </span> </td>
+                <td class="night 1"> কোত <br /> <span> ০২:০০ - ০৬:০০ </span> </td>
+                <td class="night 2"> - <br /> <span> - </span> </td>
                 <td class="night 3"> - <br /> <span> - </span> </td>
                 <td class="night 4"> - <br /> <span> - </span> </td>
                 <td class="night 5"> - <br /> <span> - </span> </td>
@@ -2369,8 +2512,8 @@
 
 
 
-            <tr>
-                <td class="sticky" rowspan="2"> ৩১. <en> - </en> - </td>
+            <!--<tr>
+                <td class="sticky" rowspan="2"> ৩৫. <en> - </en> - </td>
                 <td class="day 1"> - <br /> <span> - </span> </td>
                 <td class="day 2"> - <br /> <span> - </span> </td>
                 <td class="day 3"> - <br /> <span> - </span> </td>
@@ -2436,223 +2579,7 @@
                 <td class="night 29"> - <br /> <span> - </span> </td>
                 <td class="night 30"> - <br /> <span> - </span> </td>
                 <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="sticky" rowspan="2"> ৩২. <en> - </en> - </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
-                <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
-                <td class="day 10"> - <br /> <span> - </span> </td>
-                <td class="day 11"> - <br /> <span> - </span> </td>
-                <td class="day 12"> - <br /> <span> - </span> </td>
-                <td class="day 13"> - <br /> <span> - </span> </td>
-                <td class="day 14"> - <br /> <span> - </span> </td>
-                <td class="day 15"> - <br /> <span> - </span> </td>
-                <td class="day 16"> - <br /> <span> - </span> </td>
-                <td class="day 17"> - <br /> <span> - </span> </td>
-                <td class="day 18"> - <br /> <span> - </span> </td>
-                <td class="day 19"> - <br /> <span> - </span> </td>
-                <td class="day 20"> - <br /> <span> - </span> </td>
-                <td class="day 21"> - <br /> <span> - </span> </td>
-                <td class="day 22"> - <br /> <span> - </span> </td>
-                <td class="day 23"> - <br /> <span> - </span> </td>
-                <td class="day 24"> - <br /> <span> - </span> </td>
-                <td class="day 25"> - <br /> <span> - </span> </td>
-                <td class="day 26"> - <br /> <span> - </span> </td>
-                <td class="day 27"> - <br /> <span> - </span> </td>
-                <td class="day 28"> - <br /> <span> - </span> </td>
-                <td class="day 29"> - <br /> <span> - </span> </td>
-                <td class="day 30"> - <br /> <span> - </span> </td>
-                <td class="day 31"> - <br /> <span> - </span> </td>
-            </tr>
-            
-            <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
-                <td class="night 4"> - <br /> <span> - </span> </td>
-                <td class="night 5"> - <br /> <span> - </span> </td>
-                <td class="night 6"> - <br /> <span> - </span> </td>
-                <td class="night 7"> - <br /> <span> - </span> </td>
-                <td class="night 8"> - <br /> <span> - </span> </td>
-                <td class="night 9"> - <br /> <span> - </span> </td>
-                <td class="night 10"> - <br /> <span> - </span> </td>
-                <td class="night 11"> - <br /> <span> - </span> </td>
-                <td class="night 12"> - <br /> <span> - </span> </td>
-                <td class="night 13"> - <br /> <span> - </span> </td>
-                <td class="night 14"> - <br /> <span> - </span> </td>
-                <td class="night 15"> - <br /> <span> - </span> </td>
-                <td class="night 16"> - <br /> <span> - </span> </td>
-                <td class="night 17"> - <br /> <span> - </span> </td>
-                <td class="night 18"> - <br /> <span> - </span> </td>
-                <td class="night 19"> - <br /> <span> - </span> </td>
-                <td class="night 20"> - <br /> <span> - </span> </td>
-                <td class="night 21"> - <br /> <span> - </span> </td>
-                <td class="night 22"> - <br /> <span> - </span> </td>
-                <td class="night 23"> - <br /> <span> - </span> </td>
-                <td class="night 24"> - <br /> <span> - </span> </td>
-                <td class="night 25"> - <br /> <span> - </span> </td>
-                <td class="night 26"> - <br /> <span> - </span> </td>
-                <td class="night 27"> - <br /> <span> - </span> </td>
-                <td class="night 28"> - <br /> <span> - </span> </td>
-                <td class="night 29"> - <br /> <span> - </span> </td>
-                <td class="night 30"> - <br /> <span> - </span> </td>
-                <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="sticky" rowspan="2"> ৩৩. <en> - </en> - </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
-                <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
-                <td class="day 10"> - <br /> <span> - </span> </td>
-                <td class="day 11"> - <br /> <span> - </span> </td>
-                <td class="day 12"> - <br /> <span> - </span> </td>
-                <td class="day 13"> - <br /> <span> - </span> </td>
-                <td class="day 14"> - <br /> <span> - </span> </td>
-                <td class="day 15"> - <br /> <span> - </span> </td>
-                <td class="day 16"> - <br /> <span> - </span> </td>
-                <td class="day 17"> - <br /> <span> - </span> </td>
-                <td class="day 18"> - <br /> <span> - </span> </td>
-                <td class="day 19"> - <br /> <span> - </span> </td>
-                <td class="day 20"> - <br /> <span> - </span> </td>
-                <td class="day 21"> - <br /> <span> - </span> </td>
-                <td class="day 22"> - <br /> <span> - </span> </td>
-                <td class="day 23"> - <br /> <span> - </span> </td>
-                <td class="day 24"> - <br /> <span> - </span> </td>
-                <td class="day 25"> - <br /> <span> - </span> </td>
-                <td class="day 26"> - <br /> <span> - </span> </td>
-                <td class="day 27"> - <br /> <span> - </span> </td>
-                <td class="day 28"> - <br /> <span> - </span> </td>
-                <td class="day 29"> - <br /> <span> - </span> </td>
-                <td class="day 30"> - <br /> <span> - </span> </td>
-                <td class="day 31"> - <br /> <span> - </span> </td>
-            </tr>
-            
-            <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
-                <td class="night 4"> - <br /> <span> - </span> </td>
-                <td class="night 5"> - <br /> <span> - </span> </td>
-                <td class="night 6"> - <br /> <span> - </span> </td>
-                <td class="night 7"> - <br /> <span> - </span> </td>
-                <td class="night 8"> - <br /> <span> - </span> </td>
-                <td class="night 9"> - <br /> <span> - </span> </td>
-                <td class="night 10"> - <br /> <span> - </span> </td>
-                <td class="night 11"> - <br /> <span> - </span> </td>
-                <td class="night 12"> - <br /> <span> - </span> </td>
-                <td class="night 13"> - <br /> <span> - </span> </td>
-                <td class="night 14"> - <br /> <span> - </span> </td>
-                <td class="night 15"> - <br /> <span> - </span> </td>
-                <td class="night 16"> - <br /> <span> - </span> </td>
-                <td class="night 17"> - <br /> <span> - </span> </td>
-                <td class="night 18"> - <br /> <span> - </span> </td>
-                <td class="night 19"> - <br /> <span> - </span> </td>
-                <td class="night 20"> - <br /> <span> - </span> </td>
-                <td class="night 21"> - <br /> <span> - </span> </td>
-                <td class="night 22"> - <br /> <span> - </span> </td>
-                <td class="night 23"> - <br /> <span> - </span> </td>
-                <td class="night 24"> - <br /> <span> - </span> </td>
-                <td class="night 25"> - <br /> <span> - </span> </td>
-                <td class="night 26"> - <br /> <span> - </span> </td>
-                <td class="night 27"> - <br /> <span> - </span> </td>
-                <td class="night 28"> - <br /> <span> - </span> </td>
-                <td class="night 29"> - <br /> <span> - </span> </td>
-                <td class="night 30"> - <br /> <span> - </span> </td>
-                <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="sticky" rowspan="2"> ৩৪. <en> - </en> - </td>
-                <td class="day 1"> - <br /> <span> - </span> </td>
-                <td class="day 2"> - <br /> <span> - </span> </td>
-                <td class="day 3"> - <br /> <span> - </span> </td>
-                <td class="day 4"> - <br /> <span> - </span> </td>
-                <td class="day 5"> - <br /> <span> - </span> </td>
-                <td class="day 6"> - <br /> <span> - </span> </td>
-                <td class="day 7"> - <br /> <span> - </span> </td>
-                <td class="day 8"> - <br /> <span> - </span> </td>
-                <td class="day 9"> - <br /> <span> - </span> </td>
-                <td class="day 10"> - <br /> <span> - </span> </td>
-                <td class="day 11"> - <br /> <span> - </span> </td>
-                <td class="day 12"> - <br /> <span> - </span> </td>
-                <td class="day 13"> - <br /> <span> - </span> </td>
-                <td class="day 14"> - <br /> <span> - </span> </td>
-                <td class="day 15"> - <br /> <span> - </span> </td>
-                <td class="day 16"> - <br /> <span> - </span> </td>
-                <td class="day 17"> - <br /> <span> - </span> </td>
-                <td class="day 18"> - <br /> <span> - </span> </td>
-                <td class="day 19"> - <br /> <span> - </span> </td>
-                <td class="day 20"> - <br /> <span> - </span> </td>
-                <td class="day 21"> - <br /> <span> - </span> </td>
-                <td class="day 22"> - <br /> <span> - </span> </td>
-                <td class="day 23"> - <br /> <span> - </span> </td>
-                <td class="day 24"> - <br /> <span> - </span> </td>
-                <td class="day 25"> - <br /> <span> - </span> </td>
-                <td class="day 26"> - <br /> <span> - </span> </td>
-                <td class="day 27"> - <br /> <span> - </span> </td>
-                <td class="day 28"> - <br /> <span> - </span> </td>
-                <td class="day 29"> - <br /> <span> - </span> </td>
-                <td class="day 30"> - <br /> <span> - </span> </td>
-                <td class="day 31"> - <br /> <span> - </span> </td>
-            </tr>
-            
-            <tr>
-                <td class="night 1"> - <br /> <span> - </span> </td>
-                <td class="night 2"> - <br /> <span> - </span> </td>
-                <td class="night 3"> - <br /> <span> - </span> </td>
-                <td class="night 4"> - <br /> <span> - </span> </td>
-                <td class="night 5"> - <br /> <span> - </span> </td>
-                <td class="night 6"> - <br /> <span> - </span> </td>
-                <td class="night 7"> - <br /> <span> - </span> </td>
-                <td class="night 8"> - <br /> <span> - </span> </td>
-                <td class="night 9"> - <br /> <span> - </span> </td>
-                <td class="night 10"> - <br /> <span> - </span> </td>
-                <td class="night 11"> - <br /> <span> - </span> </td>
-                <td class="night 12"> - <br /> <span> - </span> </td>
-                <td class="night 13"> - <br /> <span> - </span> </td>
-                <td class="night 14"> - <br /> <span> - </span> </td>
-                <td class="night 15"> - <br /> <span> - </span> </td>
-                <td class="night 16"> - <br /> <span> - </span> </td>
-                <td class="night 17"> - <br /> <span> - </span> </td>
-                <td class="night 18"> - <br /> <span> - </span> </td>
-                <td class="night 19"> - <br /> <span> - </span> </td>
-                <td class="night 20"> - <br /> <span> - </span> </td>
-                <td class="night 21"> - <br /> <span> - </span> </td>
-                <td class="night 22"> - <br /> <span> - </span> </td>
-                <td class="night 23"> - <br /> <span> - </span> </td>
-                <td class="night 24"> - <br /> <span> - </span> </td>
-                <td class="night 25"> - <br /> <span> - </span> </td>
-                <td class="night 26"> - <br /> <span> - </span> </td>
-                <td class="night 27"> - <br /> <span> - </span> </td>
-                <td class="night 28"> - <br /> <span> - </span> </td>
-                <td class="night 29"> - <br /> <span> - </span> </td>
-                <td class="night 30"> - <br /> <span> - </span> </td>
-                <td class="night 31"> - <br /> <span> - </span> </td>
-            </tr>
+            </tr>-->
 
 
 
@@ -2684,7 +2611,51 @@
 
         <!-- link JavaScript -->
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/tablefilter.js"></script>
+        <script>
+            <script>
+    
+    (function() {
+     'use strict';
+   
+   var TableFilter = (function() {
+    var Arr = Array.prototype;
+       var input;
+     
+       function onInputEvent(e) {
+         input = e.target;
+         var table1 = document.getElementsByClassName(input.getAttribute('data-table'));
+         Arr.forEach.call(table1, function(table) {
+           Arr.forEach.call(table.tBodies, function(tbody) {
+             Arr.forEach.call(tbody.rows, filter);
+           });
+         });
+       }
+   
+       function filter(row) {
+         var text = row.textContent.toLowerCase();
+          //console.log(text);
+         var val = input.value.toLowerCase();
+         //console.log(val);
+         row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+       }
+   
+       return {
+         init: function() {
+           var inputs = document.getElementsByClassName('table-filter');
+           Arr.forEach.call(inputs, function(input) {
+             input.oninput = onInputEvent;
+           });
+         }
+       };
+    
+     })();
+   
+     
+    TableFilter.init(); 
+   })();   
+        </script>
 
-    <button class="mybutton" onclick="window.print()"> Print </i> </button>
+        <button class="mybutton" onclick="window.print()"> Print </i> </button>
     </body>
 </html>
