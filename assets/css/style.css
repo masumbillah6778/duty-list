@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  src: url('res/drawable/fonts/adorshoLipi.ttf') format('ttf');
+  font-family: adorshoLipi;
+}
+
+@font-face {
+  font-family: 'Bangla';
+  src: url('Bangla.eot');
+  src: url('Bangla.woff') format('woff'),
+       url('Bangla.ttf') format('truetype'),
+       url('Bangla.svg#Bangla') format('svg'),
+       url('Bangla.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -29,6 +45,7 @@ body {
   color: black;
   margin-bottom: 20px;
   padding: 8px;
+  font-family: Bangla;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -55,7 +72,7 @@ body {
   background: ;
   width: 100%;
   height: 100%;
-  font-family: Solaimanlipi;
+  font-family: Bangla;
   border: 2px;
   border-style: solid;
   border-color: Blue;
@@ -72,7 +89,7 @@ body {
   width: 160px;
   min-width: 160px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   vertical-align: middle;
   position: -webkit-sticky;
@@ -89,8 +106,9 @@ body {
   width: 160px;
   height: 50px;
   min-width: 160px;
-  font-size: 20px;
-  font-weight: bold;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 300;
   text-align: center;
   vertical-align: middle;
   border: 2px;
@@ -101,7 +119,7 @@ body {
 .table-box table .sticky {
   background: #007874;
   color: White;
-  font-weight: bold;
+  font-weight: 400;
   position: -webkit-sticky;
   position: sticky;
   left: 0px;
@@ -133,7 +151,7 @@ body {
 
 .table-box .day span {
   color: red;
-  font-size: 10px;
+  font-size: 15px;
   
 }
 
@@ -144,8 +162,7 @@ body {
 
 .table-box .night span {
   color: yellow;
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 15px;
 }
 
 .table-box .holiday {
@@ -195,8 +212,8 @@ body {
 /*=============== MOBILE SCREEN ===============*/
 @media screen and (min-width: 400px) {
   .table-box {
-  background: ;
-  width: 100%;
-  height: 670px;
+    background: ;
+    width: 100%;
+    height: 670px;
   }
 }
