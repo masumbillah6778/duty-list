@@ -250,10 +250,10 @@ body {
   }
   
   .table-box .day span {
-    font-size: 5px;
+    font-size: 10px;
   }
   
   .table-box .night span {
-    font-size: 5px;
+    font-size: 10px;
   }
 }
