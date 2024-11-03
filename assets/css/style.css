@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: ;
+  border: 2px solid red;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzoJaEp6oOE1ksfdS-zuN4CfNzXbmimV1g9MYeWUijlbJ4Yr6DIg1ZPfgwjp8T9x0fhQea6DcztSori81iSEpVRh4DHPBYIfvIuBr7wH9kL22Su6hGufO_Joihkn9bweOPX7uLWCfeaiLqt3uBEQWhYSoGu5I5VJKBYXOANTV9Bw-bLiqgmTrp1o62/s1600/bgimage.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(0,0,0,0.5);
+  background-blend-mode: overlay;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+}
+
+.content h1 {
+  background-color: yellow;
+  color: black;
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  border-left: 25px solid red;
+  border-right: 25px solid red;
+  border-radius: 30px;
+}
+
+.table-box {
+  background: ;
+  width: 99%;
+  height: 300px;
+  overflow: scroll;
+  border: 9px;
+  border-style: groove;
+  border-left-color: Blue;
+  border-top-color: Yellow;
+  border-right-color: Green;
+  border-bottom-color: Red;
+}
+  
+.table-box table {
+  background: ;
+  width: 100%;
+  height: 100%;
+  font-family: Solaimanlipi;
+  border: 2px;
+  border-style: solid;
+  border-color: Blue;
+  /*border-collapse: collapse;*/
+}
+  
+.table-box table tbody {
+    width: 100%;
+  }
+  
+.table-box table th {
+  background: #007874;
+  color: White;
+  width: 160px;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  border: 2px;
+  border-style: solid;
+  border-color: Red;
+  z-index: 1;
+}
+  
+.table-box table td {
+  color: Black;
+  width: 160px;
+  height: 50px;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px;
+  border-style: solid;
+  border-color: green;
+}
+  
+.table-box table .sticky {
+  background: #007874;
+  color: White;
+  font-weight: bold;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+  border: 2px;
+  border-style: solid;
+  border-color: Red;
+  z-index: 1;
+}
+  
+.table-box table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.table-box table td:hover{
+  border: 2px solid Red;
+}
+
+
+
+
+
+
+
+
+.table-box .day {
+  background: White;
+  color: black;
+}
+
+.table-box .day span {
+  color: red;
+  font-size: 10px;
+  
+}
+
+.table-box .night {
+  background: black;
+  color: White;
+}
+
+.table-box .night span {
+  color: yellow;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.table-box .holiday {
+  color: red;
+}
+
+.table-box .nill {
+  color: gray;
+}
+
+
+
+
+
+.score-value {
+  position: relative;
+  width: 65px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: right;
+}
+  
+.score-value::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+  top: 50%;
+  right: -16px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+  
+.score-value--very-red::after {
+  background: Red;
+}
+
+
+
+
+
+
+
+
+
+/*=============== MOBILE SCREEN ===============*/
+@media screen and (min-width: 400px) {
+  .table-box {
+  background: ;
+  width: 100%;
+  height: 670px;
+  }
+}
