@@ -273,6 +273,35 @@ input {
 
 
 
+
+/* ============================================= Float Button ============================================= */
+
+.sticky-button {
+  background: red;
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  bottom: 20px;
+  z-index: 9999;
+  text-align: center;
+  position: fixed;
+  float: right;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sticky-button i {
+  color: #fff;
+  padding: 10px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
 /* ============================================= MOBILE SCREEN ============================================= */
 
 @media only screen and (max-width: 400px) {
@@ -290,6 +319,9 @@ input {
     border:  2px solid Yellow;
     border-radius: 50px;
   }
+
+
+/* ===================== Ttable ===================== */
   .table-box {
     background: ;
     width: 100%;
@@ -316,5 +348,21 @@ input {
   
   .table-box .night span {
     font-size: 9px;
+  }
+
+
+/* ===================== Float Button ===================== */
+  .sticky-button {
+    background: red;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    bottom: 15px;
+  }
+
+  .sticky-button i {
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
   }
 }
